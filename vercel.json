@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd paparologia && npm run build",
+  "outputDirectory": "paparologia/dist",
+  "rewrites": [
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+
