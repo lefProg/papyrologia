@@ -41,11 +41,13 @@ const students: Student[] = [
   { name: "Μυριούνη Ειρήνη Χρυσοβαλάντου ", role: "Bsc Student" },
   { name: "Νικολούζου Ειρήνη Ξένια ", role: "Bsc Student" },
   { name: "Νταλαμπύρα Ευγενία ", role: "Bsc Student" },
-  { name: "Ξατζηγιάννης Κων/νος ", role: "Bsc Student" },
   { name: "Προδρομίτη Φιλάνθη Μαρία ", role: "Bsc Student" },
+  { name: "Σταμάτη Παρασκευή ", role: "Bsc Student" },
   { name: "Τρουλλή Ευδοκία Τσαμπίκα ", role: "Bsc Student" },
   { name: "Τσάτσος Παναγιώτης ", role: "Bsc Student" },
   { name: "Τσόγκα Ελευθερία ", role: "Bsc Student" },
+  { name: "Φασούλα Φωτεινή ", role: "Bsc Student" },
+  { name: "Xατζηγιάννης Κωνσταντίνος ", role: "Bsc Student" },
 
 
 
