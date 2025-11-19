@@ -35,8 +35,23 @@ const professors: Professor[] = [
 ];
 
 const students: Student[] = [
-  { name: "Aikaterini Kyratlidou", role: "Bsc Student" },
-//  { name: "Andreas Georgiou", role: "PhD Candidate" },
+  { name: "Βασιλείου Αικατερίνη ", role: "Bsc Student" },
+  { name: "Κυρατλίδου Αικατερίνη ", role: "Bsc Student" },
+  { name: "Λυκοπάντη Δήμητρα Στυλιανή ", role: "Bsc Student" },
+  { name: "Μυριούνη Ειρήνη Χρυσοβαλάντου ", role: "Bsc Student" },
+  { name: "Νικολούζου Ειρήνη Ξένια ", role: "Bsc Student" },
+  { name: "Νταλαμπύρα Ευγενία ", role: "Bsc Student" },
+  { name: "Ξατζηγιάννης Κων/νος ", role: "Bsc Student" },
+  { name: "Προδρομίτη Φιλάνθη Μαρία ", role: "Bsc Student" },
+  { name: "Τρουλλή Ευδοκία Τσαμπίκα ", role: "Bsc Student" },
+  { name: "Τσάτσος Παναγιώτης ", role: "Bsc Student" },
+  { name: "Τσόγκα Ελευθερία ", role: "Bsc Student" },
+
+
+
+
+
+  //  { name: "Andreas Georgiou", role: "PhD Candidate" },
 //  { name: "Sofia Christou", role: "PhD Candidate" },
 //  { name: "Konstantinos Athanasiou", role: "Research Assistant" },
 //  { name: "Ioanna Petrou", role: "Research Assistant" },
