@@ -15,10 +15,10 @@ interface Student {
 
 const professors: Professor[] = [
   {
-    name: "Prof. Fykaris",
-    title: "Director, Professor of Classical Philology",
-    specialization: "Hellenistic Papyri",
-    email: "fykaris@uoi.gr"
+    name: "Prof. Φυκαρης Ιωάννης",
+    title: "Αναπληρωτής Kαθηγητής",
+    specialization: "Τμήμα Φιλολογίας Πανεπιστημίου Ιωαννίνων",
+    email: "ifykaris@uoi.gr"
   }//,
 //  {
 //    name: "Prof. Dimitrios Nikolaidis",
