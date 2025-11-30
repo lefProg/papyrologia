@@ -35,19 +35,19 @@ const professors: Professor[] = [
 ];
 
 const students: Student[] = [
-  { name: "Βασιλείου Αικατερίνη ", role: "Bsc Student" },
-  { name: "Κυρατλίδου Αικατερίνη ", role: "Bsc Student" },
-  { name: "Λυκοπάντη Δήμητρα Στυλιανή ", role: "Bsc Student" },
-  { name: "Μυριούνη Ειρήνη Χρυσοβαλάντου ", role: "Bsc Student" },
-  { name: "Νικολούζου Ειρήνη Ξένια ", role: "Bsc Student" },
-  { name: "Νταλαμπύρα Ευγενία ", role: "Bsc Student" },
-  { name: "Προδρομίτη Φιλάνθη Μαρία ", role: "Bsc Student" },
-  { name: "Σταμάτη Παρασκευή ", role: "Bsc Student" },
-  { name: "Τρουλλή Ευδοκία Τσαμπίκα ", role: "Bsc Student" },
-  { name: "Τσάτσος Παναγιώτης ", role: "Bsc Student" },
-  { name: "Τσόγκα Ελευθερία ", role: "Bsc Student" },
-  { name: "Φασούλα Φωτεινή ", role: "Bsc Student" },
-  { name: "Xατζηγιάννης Κωνσταντίνος ", role: "Bsc Student" },
+  { name: "Βασιλείου Αικατερίνη ", role: "BA Student" },
+  { name: "Κυρατλίδου Αικατερίνη ", role: "BA Student" },
+  { name: "Λυκοπάντη Δήμητρα Στυλιανή ", role: "BA Student" },
+  { name: "Μυριούνη Ειρήνη Χρυσοβαλάντου ", role: "BA Student" },
+  { name: "Νικολούζου Ειρήνη Ξένια ", role: "BA Student" },
+  { name: "Νταλαμπύρα Ευγενία ", role: "MA Student" },
+  { name: "Προδρομίτη Φιλάνθη Μαρία ", role: "BA Student" },
+  { name: "Σταμάτη Παρασκευή ", role: "MA Student" },
+  { name: "Τρουλλή Ευδοκία Τσαμπίκα ", role: "BA Student" },
+  { name: "Τσάτσος Παναγιώτης ", role: "BA Student" },
+  { name: "Τσόγκα Ελευθερία ", role: "BA Student" },
+  { name: "Φασούλα Φωτεινή ", role: "BA Student" },
+  { name: "Xατζηγιάννης Κωνσταντίνος ", role: "MA Student" },
 
 
 
