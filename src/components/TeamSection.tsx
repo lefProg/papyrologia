@@ -40,7 +40,7 @@ const students: Student[] = [
   { name: "Λυκοπάντη Δήμητρα Στυλιανή ", role: "BA Student" },
   { name: "Μυριούνη Ειρήνη Χρυσοβαλάντου ", role: "BA Student" },
   { name: "Νικολούζου Ειρήνη Ξένια ", role: "BA Student" },
-  { name: "Νταλαμπύρα Ευγενία ", role: "MA Student" },
+  { name: "Νταλαμπύρα Ευγενία ", role: "MA Student" },  
   { name: "Προδρομίτη Φιλάνθη Μαρία ", role: "BA Student" },
   { name: "Σταμάτη Παρασκευή ", role: "MA Student" },
   { name: "Τρουλλή Ευδοκία Τσαμπίκα ", role: "BA Student" },
