@@ -16,7 +16,7 @@ const Hero = () => {
       
       <div className="container relative z-10 px-4 py-12 sm:py-16 md:py-20 text-center">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-serif text-primary-foreground mb-4 sm:mb-6 animate-fade-in px-2">
-          Papyrology Research Center
+          Laboratory for the creation and processing of writing materials and for the processing of Ancient Greek and Latin texts
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl text-primary-foreground/90 mb-3 sm:mb-4 max-w-3xl mx-auto px-2">
           Department of Philology

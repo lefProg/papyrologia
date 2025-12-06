@@ -7,7 +7,7 @@ const AboutSection = () => {
             About Our Research
           </h2>
           <p className="text-base sm:text-lg text-foreground/80 leading-relaxed mb-4 sm:mb-6 px-2">
-            The Papyrology Research Center at the University of Ioannina's Department of Philology 
+            The "Laboratory for the creation and processing of writing materials and for the processing of Ancient Greek and Latin texts" at the University of Ioannina's Department of Philology 
             is dedicated to the study, preservation, and interpretation of ancient manuscripts written on papyrus. 
             Our interdisciplinary team works to uncover the stories, knowledge, and cultural heritage 
             preserved in these fragile documents.

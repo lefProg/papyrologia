@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
           <div>
-            <h3 className="text-lg sm:text-xl font-serif mb-3 sm:mb-4">Papyrology Research Center</h3>
+            <h3 className="text-lg sm:text-xl font-serif mb-3 sm:mb-4">Laboratory for the creation and processing of writing materials and for the processing of Ancient Greek and Latin texts</h3>
             <p className="text-primary-foreground/80 text-xs sm:text-sm">
               Department of Philology<br />
               University of Ioannina
@@ -46,7 +46,7 @@ const Footer = () => {
         
         <div className="border-t border-primary-foreground/20 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center">
           <p className="text-primary-foreground/60 text-xs sm:text-sm px-2">
-            © {new Date().getFullYear()} University of Ioannina - Papyrology Research Center
+            © {new Date().getFullYear()} University of Ioannina - Laboratory for the creation and processing of writing materials and for the processing of Ancient Greek and Latin texts
           </p>
         </div>
       </div>
