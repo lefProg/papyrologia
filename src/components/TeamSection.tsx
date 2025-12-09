@@ -15,7 +15,7 @@ interface Student {
 
 const professors: Professor[] = [
   {
-    name: "Prof. Φυκαρης Ιωάννης",
+    name: "Dr. Φυκαρης Ιωάννης",
     title: "Αναπληρωτής Kαθηγητής",
     specialization: "Τμήμα Φιλολογίας Πανεπιστημίου Ιωαννίνων",
     email: "ifykaris@uoi.gr"
@@ -66,7 +66,7 @@ const TeamSection = () => {
     <section className="py-12 sm:py-16 md:py-20 gradient-papyrus">
       <div className="container px-4">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-primary text-center mb-8 sm:mb-12 md:mb-16">
-          Our Team
+          Dream Team
         </h2>
         
         {/* Professors Section */}
