@@ -4,17 +4,11 @@ const AboutSection = () => {
       <div className="container px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-primary mb-6 sm:mb-8">
-            About Our Research
+            Ερευνητικές Δραστηριότητες και Αποστολή του Εργαστηρίου
           </h2>
           <p className="text-base sm:text-lg text-foreground/80 leading-relaxed mb-4 sm:mb-6 px-2">
-            The "Laboratory for the creation and processing of writing materials and for the processing of Ancient Greek and Latin texts" at the University of Ioannina's Department of Philology 
-            is dedicated to the study, preservation, and interpretation of ancient manuscripts written on papyrus. 
-            Our interdisciplinary team works to uncover the stories, knowledge, and cultural heritage 
-            preserved in these fragile documents.
-          </p>
-          <p className="text-base sm:text-lg text-foreground/80 leading-relaxed px-2">
-            Through careful analysis and cutting-edge research methodologies, we contribute to the broader 
-            understanding of ancient civilizations, their languages, literature, and daily life.
+            Το Εργαστήριο Δημιουργίας και Επεξεργασίας Φορέων Γραφής Λατινικών  και Αρχαίων Κειμένων (Πάπυρος) του Πανεπιστημίου Ιωαννίνων γεφυρώνει την Κλασική Φιλολογία με τις σύγχρονες τεχνολογίες. Δραστηριοποιείται στους τομείς της Παλαιογραφίας, της Παπυρολογίας και των Ψηφιακών Ανθρωπιστικών Επιστημών (Digital Humanities), εστιάζοντας τόσο στην παραγωγή υλικών γραφής όσο και στον ψηφιακό μετασχηματισμό κειμενικών πόρων.
+            Μέσα από τη διεπιστημονική έρευνα, την ψηφιοποίηση αρχείων και την ανάπτυξη ηλεκτρονικών εργαλείων, το Εργαστήριο στοχεύει στη διάσωση της πολιτιστικής κληρονομιάς και την ενίσχυση της Δια Βίου Μάθησης. Παράλληλα, προσφέρει εξειδικευμένα ακαδημαϊκά και επαγγελματικά εφόδια στους φοιτητές, συνδέοντας το Τμήμα Φιλολογίας με την κοινωνία, την αγορά εργασίας και ερευνητικούς φορείς στην Ελλάδα και το εξωτερικό.
           </p>
         </div>
       </div>

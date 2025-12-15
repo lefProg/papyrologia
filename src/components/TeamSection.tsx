@@ -37,6 +37,7 @@ const professors: Professor[] = [
 const students: Student[] = [
   { name: "Βασιλείου Αικατερίνη ", role: "BA Student" },
   { name: "Κυρατλίδου Αικατερίνη ", role: "BA Student" },
+  { name: "Λαμπνταβίτης Ευάγγελος", role: "MA Student" },  
   { name: "Λυκοπάντη Δήμητρα Στυλιανή ", role: "BA Student" },
   { name: "Μυριούνη Ειρήνη Χρυσοβαλάντου ", role: "BA Student" },
   { name: "Νικολούζου Ειρήνη Ξένια ", role: "BA Student" },
