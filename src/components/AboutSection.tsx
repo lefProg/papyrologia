@@ -4,11 +4,27 @@ const AboutSection = () => {
       <div className="container px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-primary mb-6 sm:mb-8">
-            Ερευνητικές Δραστηριότητες και Αποστολή του Εργαστηρίου
+              THE LABORATORY
           </h2>
           <p className="text-base sm:text-lg text-foreground/80 leading-relaxed mb-4 sm:mb-6 px-2">
-            Το Εργαστήριο Δημιουργίας και Επεξεργασίας Φορέων Γραφής Λατινικών  και Αρχαίων Κειμένων (Πάπυρος) του Πανεπιστημίου Ιωαννίνων γεφυρώνει την Κλασική Φιλολογία με τις σύγχρονες τεχνολογίες. Δραστηριοποιείται στους τομείς της Παλαιογραφίας, της Παπυρολογίας και των Ψηφιακών Ανθρωπιστικών Επιστημών (Digital Humanities), εστιάζοντας τόσο στην παραγωγή υλικών γραφής όσο και στον ψηφιακό μετασχηματισμό κειμενικών πόρων.
-            Μέσα από τη διεπιστημονική έρευνα, την ψηφιοποίηση αρχείων και την ανάπτυξη ηλεκτρονικών εργαλείων, το Εργαστήριο στοχεύει στη διάσωση της πολιτιστικής κληρονομιάς και την ενίσχυση της Δια Βίου Μάθησης. Παράλληλα, προσφέρει εξειδικευμένα ακαδημαϊκά και επαγγελματικά εφόδια στους φοιτητές, συνδέοντας το Τμήμα Φιλολογίας με την κοινωνία, την αγορά εργασίας και ερευνητικούς φορείς στην Ελλάδα και το εξωτερικό.
+            Being part of the Faculty of Philology at the University of Ioannina the Lab promotes research within the broader fields of Ancient Greek and Latin Philology, focusing on Textual Criticism, scholarly Editing, Palaeography, and Papyrology, and extends its work to Didactic Methodology and Digital Humanities.
+            The Lab’s main objectives are described as follows:
+                • Connection of Ancient Greek and Latin Philology with the creation and processing of material substrates of texts
+                • Research into Ancient Greek and Latin papyri and manuscripts
+                • Transformation of Ancient Greek and/or Latin textual resources
+                • Connection of Ancient Greek and Latin Philology with Didactic Methodology 
+                • Contribution to Research Programs in Terms of Excellence and Innovation
+                • Collaboration and Partnership with Institutions and Companies
+
+            The mission and specific objectives of the Lab are set out in greater detail in the Article 3 of the Laboratory's Regulations published in the <a 
+              href="/fek.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:text-accent underline font-medium"
+            >
+              Government Gazette
+            </a>.
+            The Lab strongly supports the <a href="https://www.roblabs.eu/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent underline font-medium">RobLabs Consortium</a> being one of its active research partners.
           </p>
         </div>
       </div>
