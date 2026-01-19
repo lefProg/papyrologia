@@ -1,6 +1,6 @@
 const HistorySection = () => {
   return (
-    <section className="py-12 sm:py-16 md:py-20 gradient-papyrus">
+    <section id="history" className="py-12 sm:py-16 md:py-20 gradient-papyrus">
       <div className="container px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-primary mb-6 sm:mb-8">
