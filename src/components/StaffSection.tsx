@@ -6,20 +6,22 @@ interface Student {
 }
 
 const students: Student[] = [
-  { name: "Βασιλείου Αικατερίνη ", role: "BA Student" },
-  { name: "Κυρατλίδου Αικατερίνη ", role: "BA Student" },
-  { name: "Λαμπνταβίτης Ευάγγελος", role: "MA Student" },  
-  { name: "Λυκοπάντη Δήμητρα Στυλιανή ", role: "BA Student" },
-  { name: "Μυριούνη Ειρήνη Χρυσοβαλάντου ", role: "BA Student" },
-  { name: "Νικολούζου Ειρήνη Ξένια ", role: "BA Student" },
-  { name: "Νταλαμπύρα Ευγενία ", role: "MA Student" },  
-  { name: "Προδρομίτη Φιλάνθη Μαρία ", role: "BA Student" },
-  { name: "Σταμάτη Παρασκευή ", role: "MA Student" },
-  { name: "Τρουλλή Ευδοκία Τσαμπίκα ", role: "BA Student" },
-  { name: "Τσάτσος Παναγιώτης ", role: "BA Student" },
-  { name: "Τσόγκα Ελευθερία ", role: "BA Student" },
-  { name: "Φασούλα Φωτεινή ", role: "BA Student" },
-  { name: "Xατζηγιάννης Κωνσταντίνος ", role: "MA Student" },
+  { name: "Chatzigiannis Konstantinos", role: "chatzegianneskostantinos@gmail.com" },
+  { name: "Dalampyra Evgenia", role: "ppl100032@uoi.gr" },
+  { name: "Fasoula Fotini", role: "pl11161@uoi.gr" },
+  { name: "Kyratlidou Aikaterini", role: "pl10837@uoi.gr" },
+  { name: "Lampntavitis Evangelos", role: "ppl100031@uoi.gr" },
+  { name: "Lazari Maria", role: "pl10843@uoi.gr" },
+  { name: "Lazaris Panagiotis", role: "ppr00251@uoi.gr" },
+  { name: "Lykopanti Dimitra Styliani", role: "pl11079@uoi.gr" },
+  { name: "Myriouni Eirini Chrysovalantou", role: "pl11109@uoi.gr" },
+  { name: "Nikolouzou Eirini Xenia", role: "pl11266@uoi.gr" },
+  { name: "Prodromiti Filanthi Maria", role: "pl11127@uoi.gr" },
+  { name: "Stamati Paraskevi", role: "evistamath@gmail.com" },
+  { name: "Troulli Evdokia Tsampika", role: "pl11149@uoi.gr" },
+  { name: "Tsatsos Panagiotis", role: "pl11154@uoi.gr" },
+  { name: "Tsogka Eleftheria", role: "pl11157@uoi.gr" },
+  { name: "Vasileiou Aikaterini", role: "pl11206@uoi.gr" },
 ];
 
 const StaffSection = () => {
