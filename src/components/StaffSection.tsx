@@ -106,14 +106,14 @@ const StaffSection = () => {
             </h3>
             <div className="flex flex-wrap justify-center gap-3 sm:gap-4 max-w-5xl mx-auto">
               {students.map((student, index) => (
-                <Card key={index} className="p-3 sm:p-4 shadow-card hover:shadow-elegant transition-all duration-300 bg-card text-center w-full max-w-[200px] sm:w-[calc(50%-0.5rem)] sm:max-w-[200px] md:w-[calc(33.333%-0.67rem)] lg:w-[calc(25%-0.75rem)]">
+                <Card key={index} className="p-3 sm:p-4 shadow-card hover:shadow-elegant transition-all duration-300 bg-card text-center w-full max-w-[200px] sm:w-[calc(50%-0.5rem)] sm:max-w-[200px] md:w-[calc(33.333%-0.67rem)] lg:w-[calc(25%-0.75rem)] overflow-hidden">
                   <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-secondary mx-auto mb-2 sm:mb-3 flex items-center justify-center">
                     <span className="text-base sm:text-lg font-serif text-secondary-foreground">
                       {student.name.split(' ').map(n => n[0]).join('')}
                     </span>
                   </div>
                   <h4 className="text-sm sm:text-base font-serif text-primary mb-1 break-words">{student.name}</h4>
-                  <p className="text-xs text-muted-foreground">{student.role}</p>
+                  <p className="text-xs text-muted-foreground break-all overflow-hidden px-1">{student.role}</p>
                 </Card>
               ))}
             </div>
