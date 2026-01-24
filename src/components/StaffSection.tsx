@@ -28,17 +28,17 @@ const StaffSection = () => {
   return (
     <section id="staff" className="py-12 sm:py-16 md:py-20 gradient-papyrus">
       <div className="container px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-primary mb-6 sm:mb-8">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-primary mb-6 sm:mb-8 text-left">
             STAFF
           </h2>
           
           {/* Director Sub-section */}
           <div className="mb-8 sm:mb-12">
-            <h3 className="text-2xl sm:text-3xl font-serif text-primary mb-4 sm:mb-6">
+            <h3 className="text-2xl sm:text-3xl font-serif text-primary mb-4 sm:mb-6 text-left">
               Director
             </h3>
-            <p className="text-base sm:text-lg text-foreground/80 leading-relaxed mb-4 sm:mb-6 px-2">
+            <p className="text-base sm:text-lg text-foreground/80 leading-relaxed mb-4 sm:mb-6 px-2 text-left">
               In accordance with Article 5 of the <a 
                 href="/fek.pdf" 
                 target="_blank" 
@@ -47,6 +47,7 @@ const StaffSection = () => {
               >
                 Laboratory's Regulations
               </a> the Director of the Laboratory, elected by the Assembly of the Faculty of Philology every three years, is responsible for its operation.
+              <br />
               In accordance with the <a 
                 href="/director.pdf" 
                 target="_blank" 
@@ -54,7 +55,8 @@ const StaffSection = () => {
                 className="text-primary hover:text-accent underline font-medium"
               >
                 Rector's Act No. 9785/10-03-2025
-              </a>, <a 
+              </a>, 
+              <a 
                 href="https://philology.uoi.gr/en/staff/faculty-members/fykaris-ioannis/" 
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -67,10 +69,10 @@ const StaffSection = () => {
 
           {/* Academic Partner, Students Sub-section */}
           <div className="mb-8 sm:mb-12">
-            <h3 className="text-2xl sm:text-3xl font-serif text-primary mb-4 sm:mb-6">
+            <h3 className="text-2xl sm:text-3xl font-serif text-primary mb-4 sm:mb-6 text-left">
               Academic Partner, Students
             </h3>
-            <p className="text-base sm:text-lg text-foreground/80 leading-relaxed mb-4 sm:mb-6 px-2">
+            <p className="text-base sm:text-lg text-foreground/80 leading-relaxed mb-4 sm:mb-6 px-2 text-left">
               In accordance with Article 4 of the <a 
                 href="/fek.pdf" 
                 target="_blank" 
@@ -84,10 +86,10 @@ const StaffSection = () => {
 
           {/* Academic Partner Sub-section */}
           <div className="mb-8 sm:mb-12">
-            <h3 className="text-2xl sm:text-3xl font-serif text-primary mb-4 sm:mb-6">
+            <h3 className="text-2xl sm:text-3xl font-serif text-primary mb-4 sm:mb-6 text-left">
               Academic Partner
             </h3>
-            <p className="text-base sm:text-lg text-foreground/80 leading-relaxed mb-4 sm:mb-6 px-2">
+            <p className="text-base sm:text-lg text-foreground/80 leading-relaxed mb-4 sm:mb-6 px-2 text-left">
               <a 
                 href="https://philology.uoi.gr/en/staff/faculty-members/athanasopoulos-panagiotis/" 
                 target="_blank" 

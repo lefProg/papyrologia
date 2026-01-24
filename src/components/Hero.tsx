@@ -1,56 +1,47 @@
-import heroImage from "@/assets/hero-papyrus.jpg";
-import handwrittenImage from "@/assets/handwritten.JPG";
-import robLabsLogo from "@/assets/RobLabs_logo.png";
+import heroImage from "@/assets/uoi-logo-new.webp";
+import handwrittenImage from "@/assets/handwritten_new.jpg";
 
 const Hero = () => {
   return (
     <section>
-      {/* Hero Image Section - Full width on top */}
-      <div className="w-full h-[50vh] sm:h-[60vh] overflow-hidden">
-        <img 
-          src={heroImage} 
-          alt="Papyrus" 
-          className="w-full h-full object-cover object-center"
-          style={{ transform: 'scale(0.8)'}}
-        />
-      </div>
-      {/* Title Section */}
-      <div className="container px-4 py-12 sm:py-16 md:py-20 text-center">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-serif text-primary mb-4 sm:mb-6 animate-fade-in px-2">
-          LABORATORY FOR THE CREATION AND PROCESSING OF WRITING MATERIALS AND FOR THE PROCESSING OF ANCIENT GREEK AND LATIN TEXTS
-        </h1>
-        <p className="text-lg sm:text-xl md:text-2xl text-foreground/90 mb-3 sm:mb-4 max-w-3xl mx-auto px-2">
-          Department of Philology
-        </p>
-        <p className="text-base sm:text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto px-2">
-          University of Ioannina
-        </p>
-      </div>
-
-      {/* Two images side by side below hero */}
-      <div className="w-full flex gap-2 sm:gap-4">
-        <div className="w-1/2 h-[30vh] sm:h-[40vh] overflow-hidden">
-          <a 
-            href="https://www.roblabs.eu/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="block w-full h-full"
-          >
-            <img 
-              src={robLabsLogo} 
-              alt="RobLabs Logo" 
-              className="w-full h-full object-contain object-center bg-background p-2 sm:p-4 hover:opacity-90 transition-opacity cursor-pointer"
-            />
-          </a>
-        </div>
-        <div className="w-1/2 h-[30vh] sm:h-[40vh] overflow-hidden flex items-center justify-center bg-background p-2 sm:p-4">
+      {/* Hero Image and Title Section */}
+      <div className="w-full flex items-center gap-4 sm:gap-6 md:gap-8 px-4 sm:px-6 md:px-8 pt-8 sm:pt-12 pb-0">
+        {/* Image on the left */}
+        <div className="flex-shrink-0 w-1/3 sm:w-1/4 md:w-1/5 flex items-center justify-center">
           <img 
-            src={handwrittenImage} 
-            alt="Handwritten" 
-            className="w-full h-full object-contain object-center"
-            style={{ transform: 'rotate(-90deg) scale(0.8)' }}
+            src={heroImage} 
+            alt="University of Ioannina Logo" 
+            className="w-full h-auto max-w-full object-contain"
           />
         </div>
+        
+        {/* Title on the middle/right */}
+        <div className="flex-1 flex items-center">
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-serif text-primary animate-fade-in">
+            LABORATORY FOR THE CREATION AND PROCESSING OF WRITING MATERIALS AND FOR THE PROCESSING OF ANCIENT GREEK AND LATIN TEXTS
+          </h1>
+        </div>
+      </div>
+      
+      {/* Department and University Section */}
+      {/* <div className="container px-4 -mt-2 sm:-mt-4 text-left">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-lg sm:text-xl md:text-2xl text-foreground/90 mb-0 sm:mb-1">
+            Department of Philology
+          </p>
+          <p className="text-base sm:text-lg md:text-xl text-foreground/80">
+            University of Ioannina
+          </p>
+        </div>
+      </div> */}
+
+      {/* Handwritten Image Section - Alone */}
+      <div className="w-full h-[60vh] sm:h-[70vh] md:h-[80vh] overflow-hidden flex items-center justify-center bg-background p-4 sm:p-8 mt-8 sm:mt-12 mb-8 sm:mb-12">
+        <img 
+          src={handwrittenImage} 
+          alt="Handwritten" 
+          className="w-full h-full object-contain object-center"
+        />
       </div>
       
     </section>

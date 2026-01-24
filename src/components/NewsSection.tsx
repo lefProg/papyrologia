@@ -2,18 +2,18 @@ const NewsSection = () => {
   return (
     <section id="news" className="py-12 sm:py-16 md:py-20 gradient-papyrus">
       <div className="container px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-primary mb-6 sm:mb-8">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-primary mb-6 sm:mb-8 text-left">
             NEWS
           </h2>
           
           {/* December 18, 2025 Sub-section */}
           <div className="mb-8 sm:mb-12">
-            <h3 className="text-2xl sm:text-3xl font-serif text-primary mb-4 sm:mb-6">
+            <h3 className="text-2xl sm:text-3xl font-serif text-primary mb-4 sm:mb-6 text-left">
               Thursday, December 18, 2025
             </h3>
-            <div className="text-base sm:text-lg text-foreground/80 leading-relaxed mb-4 sm:mb-6 px-2">
-              <h4 className="text-xl sm:text-2xl font-serif text-primary mb-3 sm:mb-4">
+            <div className="text-base sm:text-lg text-foreground/80 leading-relaxed mb-4 sm:mb-6 px-2 text-left">
+              <h4 className="text-xl sm:text-2xl font-serif text-primary mb-3 sm:mb-4 text-left">
                 Associate Professor Ioannis Fykaris Honored by the <a 
                   href="https://www.academyofathens.gr/el/news/panigyriki-synedria-tis-akadimias-athinon-pinakas-timomenon-pempti-18-dekembrioy-2025" 
                   target="_blank" 
