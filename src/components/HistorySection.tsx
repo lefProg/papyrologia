@@ -14,8 +14,8 @@ const HistorySection = () => {
               rel="noopener noreferrer"
               className="text-primary hover:text-accent underline font-medium"
             >
-              Government Gazette, issue 255B/30-01-2025
-            </a>) thanks to a number of initiatives Assoc. Professor Ioannis Fykaris has undertaken, in virtue of the <a 
+              Government Gazette, issue 255B/30-01-2025:
+            </a>) thanks to a number of initiatives Professor Ioannis Fykaris has undertaken, in virtue of the <a 
               href="/fek_2.pdf" 
               target="_blank" 
               rel="noopener noreferrer"

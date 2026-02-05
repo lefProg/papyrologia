@@ -1,9 +1,29 @@
-import { downloadMultipleFiles } from "@/lib/utils";
-
 const ActivitiesSection = () => {
   const handleImageClick = (e: React.MouseEvent<HTMLAnchorElement>, images: Array<{ url: string; filename: string }>) => {
     e.preventDefault();
-    downloadMultipleFiles(images);
+    // Open one tab with all images so the browser doesn't block multiple window.open calls
+    const origin = window.location.origin;
+    const html = `
+      <!DOCTYPE html>
+      <html>
+        <head><meta charset="utf-8"><title>Images</title></head>
+        <body style="margin:0;padding:1rem;background:#1a1a1a;display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;">
+          ${images
+            .map(({ url }) => {
+              const src = (url.startsWith("http") ? url : origin + url)
+                .replace(/&/g, "&amp;")
+                .replace(/"/g, "&quot;")
+                .replace(/</g, "&lt;");
+              return `<img src="${src}" alt="" style="max-width:100%;height:auto;display:block;" loading="lazy" />`;
+            })
+            .join("")}
+        </body>
+      </html>
+    `;
+    const blob = new Blob([html], { type: "text/html;charset=utf-8" });
+    const blobUrl = URL.createObjectURL(blob);
+    window.open(blobUrl, "_blank", "noopener,noreferrer");
+    URL.revokeObjectURL(blobUrl);
   };
 
   return (
@@ -64,7 +84,7 @@ const ActivitiesSection = () => {
                 ])}
                 className="text-primary hover:text-accent underline font-medium cursor-pointer"
               >
-                12 and 19 November 2025
+                12 & 19 November 2025
               </a>
             </h3>
             <p className="text-base sm:text-lg text-foreground/80 leading-relaxed mb-4 sm:mb-6 px-2 text-left">
@@ -83,7 +103,7 @@ const ActivitiesSection = () => {
                 ])}
                 className="text-primary hover:text-accent underline font-medium cursor-pointer"
               >
-                11 and 25 November 2025
+                11 & 25 November 2025
               </a>
             </h3>
             <p className="text-base sm:text-lg text-foreground/80 leading-relaxed mb-4 sm:mb-6 px-2 text-left">

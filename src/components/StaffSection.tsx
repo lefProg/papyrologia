@@ -63,7 +63,7 @@ const StaffSection = () => {
                 className="text-primary hover:text-accent underline font-medium"
               >
                 Ioannis Fykaris
-              </a>, Assoc. Professor of Didactic Methodology, has been elected Director of the Laboratory.
+              </a>, Professor of Teaching Methodology, has been elected Director of the Laboratory.
             </p>
           </div>
 

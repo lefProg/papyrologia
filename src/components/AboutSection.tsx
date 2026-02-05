@@ -29,7 +29,7 @@ const AboutSection = () => {
               </h2>
               <div className="text-base sm:text-lg text-foreground/80 leading-relaxed mb-4 sm:mb-6 px-2">
             <p className="mb-4">
-              Being part of the Faculty of Philology at the University of Ioannina the Lab promotes research within the broader fields of Ancient Greek and Latin Philology, focusing on Textual Criticism, scholarly Editing, Palaeography, and Papyrology, and extends its work to Didactic Methodology and Digital Humanities.
+              Being part of the Faculty of Philology at the University of Ioannina the Lab promotes research within the broader fields of Ancient Greek and Latin Philology, focusing on Textual Criticism, scholarly Editing, Palaeography, and Papyrology, and extends its work to Teaching Methodology and Digital Humanities.
             </p>
             <p className="mb-4">
               The Lab's main objectives are described as follows:
@@ -38,7 +38,7 @@ const AboutSection = () => {
               <li>• Connection of Ancient Greek and Latin Philology with the creation and processing of material substrates of texts</li>
               <li>• Research into Ancient Greek and Latin papyri and manuscripts</li>
               <li>• Transformation of Ancient Greek and/or Latin textual resources</li>
-              <li>• Connection of Ancient Greek and Latin Philology with Didactic Methodology</li>
+              <li>• Connection of Ancient Greek and Latin Philology with Teaching Methodology</li>
               <li>• Contribution to Research Programs in Terms of Excellence and Innovation</li>
               <li>• Collaboration and Partnership with Institutions and Companies</li>
             </ul>
