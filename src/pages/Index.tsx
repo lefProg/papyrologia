@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import Hero from "@/components/Hero";
 import Navigation from "@/components/Navigation";
+import handwrittenImage from "@/assets/written_by_hand.JPG";
 import AboutSection from "@/components/AboutSection";
 // import PapyriGallery from "@/components/PapyriGallery";
 // import TeamSection from "@/components/TeamSection";
@@ -35,7 +36,19 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Hero />
-      <Navigation onSectionChange={setActiveSection} activeSection={activeSection} />
+      <Navigation
+        onSectionChange={setActiveSection}
+        activeSection={activeSection}
+        variant="split"
+      >
+        <div className="w-full h-[40vh] sm:h-[45vh] md:h-[50vh] overflow-hidden flex items-center justify-center p-2 sm:p-4">
+          <img
+            src={handwrittenImage}
+            alt="Handwritten"
+            className="w-full h-full object-contain object-center"
+          />
+        </div>
+      </Navigation>
       <AboutSection />
       {activeSection === 'history' && <div ref={sectionRefs.history}><HistorySection /></div>}
       {activeSection === 'staff' && <div ref={sectionRefs.staff}><StaffSection /></div>}

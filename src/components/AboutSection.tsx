@@ -37,7 +37,7 @@ const AboutSection = () => {
             <ul className="list-none space-y-2 mb-4 text-left max-w-3xl">
               <li>• Connection of Ancient Greek and Latin Philology with the creation and processing of material substrates of texts</li>
               <li>• Research into Ancient Greek and Latin papyri and manuscripts</li>
-              <li>• Transformation of Ancient Greek and/or Latin textual resources</li>
+              <li>• Transformation of Ancient Greek and Latin textual resources</li>
               <li>• Connection of Ancient Greek and Latin Philology with Teaching Methodology</li>
               <li>• Contribution to Research Programs in Terms of Excellence and Innovation</li>
               <li>• Collaboration and Partnership with Institutions and Companies</li>

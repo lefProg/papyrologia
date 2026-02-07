@@ -7,7 +7,7 @@ const HistorySection = () => {
             HISTORY
           </h2>
           <p className="text-base sm:text-lg text-foreground/80 leading-relaxed mb-4 sm:mb-6 px-2 text-left">
-            2025
+            2025:
             The Lab has been founded (<a 
               href="/fek.pdf" 
               target="_blank" 

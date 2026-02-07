@@ -1,6 +1,5 @@
 import heroImage from "@/assets/uoi_logo.png";
 import papyrologyLogo from "@/assets/papyrology_logo.png";
-import handwrittenImage from "@/assets/written_by_hand.JPG";
 
 const Hero = () => {
   return (
@@ -45,15 +44,6 @@ const Hero = () => {
         </div>
       </div> */}
 
-      {/* Handwritten Image Section - Alone */}
-      <div className="w-full h-[60vh] sm:h-[70vh] md:h-[80vh] overflow-hidden flex items-center justify-center bg-background p-4 sm:p-8 mt-8 sm:mt-12 mb-8 sm:mb-12">
-        <img 
-          src={handwrittenImage} 
-          alt="Handwritten" 
-          className="w-full h-full object-contain object-center"
-        />
-      </div>
-      
     </section>
   );
 };
